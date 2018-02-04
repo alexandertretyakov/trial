@@ -1,0 +1,71 @@
+/* ------------------------------------------------------ Basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font: 13px Arial, Verdana, sans-serif;
+}
+
+html {
+    background: #2b702d;
+}
+
+body {
+    background: url("../images/background.png") repeat-x 35%;
+}
+
+.page {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+}
+
+a {
+    color: #f0f6f0;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+/*--------------------------Header*/
+
+.nav-1 {
+    margin: 23px 0 27px 260px;
+
+    a{
+        margin-right: 11px;
+        font: 11px Tahoma;
+    }
+}
+
+.nav-2 {
+    margin-left: 247px;
+
+    a {
+        text-transform: uppercase;
+        font: 10px Arial;
+        float: left;
+        padding: 2px 13px;
+        border-right: 1px dashed #76b783;
+
+        &:last-child {
+            border: none;
+            line-height: 20px;
+        }
+    }
+}
+
+/*--------------------------Content*/
+
+.content {
+    background: url("../images/fishing.png") no-repeat 0px 0px;
+    height: 1000px;
+
+}
